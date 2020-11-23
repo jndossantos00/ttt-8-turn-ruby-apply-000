@@ -26,7 +26,7 @@ def position_taken? (board, index)
   end
 end
 
-def move(board, index, player)
+def move(board, index, player= "X")
   board[index] = player
 end
 
