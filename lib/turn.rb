@@ -26,7 +26,7 @@ def position_taken? (board, index)
   end
 end
 
-def move(board, index, player)
+def move(board, index)
   board[index] = player
 end
 
@@ -37,6 +37,6 @@ def turn(board)
    if !valid_move?(board, index)
     turn(board)
   else
-move(board, index, player)
+move(board, index)
 end
 end
