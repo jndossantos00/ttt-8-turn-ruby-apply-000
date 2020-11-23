@@ -38,7 +38,6 @@ def turn(board)
      position_taken?(board, index)
      move(board, index, player)
     turn(board)
-
-
+    display_board(board)
 end
 end
